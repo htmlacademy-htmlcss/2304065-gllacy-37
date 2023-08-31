@@ -59,15 +59,15 @@
       <section class="filters">
         <form class="form-filters" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="filters-sorting">
-            <legend class="filters-title">Сортировка:</legend>
-            <select class="filters-select" name="sorting">
+            <legend class="filters-text">Сортировка:</legend>
+            <select class="filters-select filters-text" name="sorting">
               <option value="popular">по популярности</option>
               <option value="max-min">по уюаванию цены</option>
               <option value="min-max">по возрастанию цены</option>
             </select>
           </fieldset>
           <fieldset class="form-range-bar">
-            <legend class="filters-title">Цена: <span class="range-min-price">100 ₽</span> – <span class="range-max-price">500 ₽</span>
+            <legend class="filters-text">Цена: <span class="range-min-price">100 ₽</span> – <span class="range-max-price">500 ₽</span>
             </legend>
             <div class="range-scale">
               <div class="range-bar">
@@ -79,6 +79,39 @@
                 </button>
               </div>
             </div>
+          </fieldset>
+          <fieldset class="form-radio">
+            <legend class="filters-text">Жирность:</legend>
+            <ul class="radio-list">
+              <li class="radio-item">
+                <label class="radio-label">
+                  <input class="visually-hidden" type="radio" value="0%" name="fat">
+                  <span class="radio-input"></span>
+                  <span class="filters-text">0%</span>
+                </label>
+              </li>
+              <li class="radio-item">
+                <label class="radio-label">
+                  <input class="visually-hidden" type="radio" value="until-10%" name="fat" checked>
+                  <span class="radio-input"></span>
+                  <span class="filters-text">до 10%</span>
+                </label>
+              </li>
+              <li class="radio-item">
+                <label class="radio-label">
+                  <input class="visually-hidden" type="radio" value="until-30%" name="fat">
+                  <span class="radio-input"></span>
+                  <span class="filters-text">до 30%</span>
+                </label>
+              </li>
+              <li class="radio-item">
+                <label class="radio-label">
+                  <input class="visually-hidden" type="radio" value="above-30%" name="fat">
+                  <span class="radio-input"></span>
+                  <span class="filters-text">выше 30% </span>
+                </label>
+              </li>
+            </ul>
           </fieldset>
 
         </form>
