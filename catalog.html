@@ -57,15 +57,30 @@
         <h1 class="title title-catalog">Сливочное мороженое</h1>
       </header>
       <section class="filters">
-        <form class="form-filters">
+        <form class="form-filters" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="filters-sorting">
             <legend class="filters-title">Сортировка:</legend>
-            <select class="filters-select">
+            <select class="filters-select" name="sorting">
               <option value="popular">по популярности</option>
               <option value="max-min">по уюаванию цены</option>
               <option value="min-max">по возрастанию цены</option>
             </select>
           </fieldset>
+          <fieldset class="form-range-bar">
+            <legend class="filters-title">Цена: <span class="range-min-price">100 ₽</span> – <span class="range-max-price">500 ₽</span>
+            </legend>
+            <div class="range-scale">
+              <div class="range-bar">
+                <button class="button button-range button-range-min">
+                  <span class="visually-hidden">Изменить минимальную цену.</span>
+                </button>
+                <button class="button button-range button-range-max">
+                  <span class="visually-hidden">Изменить максимальную цену.</span>
+                </button>
+              </div>
+            </div>
+          </fieldset>
+
         </form>
       </section>
     </main>
