@@ -69,6 +69,22 @@
   cursor: pointer;
 }
 
+/* description */
+
+.description-xs {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.description-s {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.description-bold {
+  font-weight: 700;
+}
+
 /* link */
 
 .link {
@@ -86,6 +102,10 @@
 .text-l {
   font-size: 18px;
   line-height: 24px;
+}
+
+.text-bold {
+  font-weight: 700;
 }
 
 /* title */
