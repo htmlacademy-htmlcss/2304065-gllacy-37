@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+.body-strawberry {
+  background-color: #feafc3;
+}
+
+.body-banana {
+  background-color: #69a9ff;
+}
+
+.body-caramel {
+  background-color: #fcc850;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
