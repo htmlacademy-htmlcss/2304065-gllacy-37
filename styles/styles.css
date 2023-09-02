@@ -28,6 +28,17 @@
   box-sizing: border-box;
 }
 
+.body {
+  min-width: 1366px;
+
+  font-family: "inter", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #565c66;
+}
+
 .body-strawberry {
   background-color: #feafc3;
 }
