@@ -77,6 +77,17 @@
   text-decoration: none;
 }
 
+/* text */
+
+.text-s {
+  line-height: 20px;
+}
+
+.text-l {
+  font-size: 18px;
+  line-height: 24px;
+}
+
 /* title */
 
 .title {
