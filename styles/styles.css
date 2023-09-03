@@ -90,7 +90,7 @@
 }
 
 .button-secondary {
-  color: #ffffff;
+  color: #fcfcfc;
 
   background-color: #ff2f64;
   outline: 4px solid rgba(255, 47, 100, 0.30);
@@ -220,6 +220,13 @@
   border-radius: 16px;
 }
 
+/* products */
+
+.products-item {
+  background-color: #fcfcfc;
+  border-radius: 8px;
+}
+
 /* about-us */
 
 .about-us-wrapper {
@@ -241,6 +248,6 @@
 /* pagination */
 
 .pagination-link_active {
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-radius: 50px;
 }
