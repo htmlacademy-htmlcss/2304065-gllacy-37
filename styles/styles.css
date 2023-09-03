@@ -230,3 +230,10 @@
 .filters-text {
   color: #2d3440;
 }
+
+/* pagination */
+
+.pagination-link_active {
+  background-color: #ffffff;
+  border-radius: 50px;
+}
