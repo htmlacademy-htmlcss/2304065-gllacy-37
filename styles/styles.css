@@ -227,6 +227,14 @@
   border-radius: 8px;
 }
 
+/* advantages */
+
+.advantages {
+  background-image: url("../images/background/waffle.png");
+  background-position: center;
+  border-radius: 16px;
+}
+
 /* about-us */
 
 .about-us-wrapper {
