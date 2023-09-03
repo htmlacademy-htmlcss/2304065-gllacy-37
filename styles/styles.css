@@ -249,7 +249,7 @@
   background-image: url("../images/background/serving.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   border-radius: 16px;
 }
 
@@ -261,7 +261,7 @@
   background-image: url("../images/background/mail.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   border-radius: 16px;
 }
 
@@ -276,7 +276,7 @@
   background-image: url("../images/background/delivery.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   border-radius: 16px;
 }
 
@@ -288,6 +288,14 @@
 }
 
 /* about-us */
+
+.about-us {
+  background-image: url("../images/background/contacts.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+}
 
 .about-us-wrapper {
   font-style: normal;
