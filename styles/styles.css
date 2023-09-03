@@ -270,6 +270,23 @@
   border-radius: 16px;
 }
 
+/* delivery */
+
+.delivery {
+  background-image: url("../images/background/delivery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 16px;
+}
+
+.form-delivery {
+  padding: 40px;
+
+  background-color: #fcfcfc;
+  border-radius: 8px;
+}
+
 /* about-us */
 
 .about-us-wrapper {
