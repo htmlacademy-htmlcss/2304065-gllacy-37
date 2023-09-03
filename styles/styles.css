@@ -72,6 +72,7 @@
 
   font-family: "inter", sans-serif;
   font-weight: 700;
+  text-decoration: none;
 
   border-radius: 26px;
 
@@ -112,6 +113,10 @@
 
 .text-s {
   line-height: 20px;
+}
+
+.text-m {
+  color: #2d3440;
 }
 
 .text-l {
