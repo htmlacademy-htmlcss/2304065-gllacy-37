@@ -253,6 +253,23 @@
   border-radius: 16px;
 }
 
+/* subscribe */
+
+.subscribe {
+  padding: 6px;
+
+  background-image: url("../images/background/mail.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 16px;
+}
+
+.subscribe-wrappper {
+  background-color: #ffffff;
+  border-radius: 16px;
+}
+
 /* about-us */
 
 .about-us-wrapper {
