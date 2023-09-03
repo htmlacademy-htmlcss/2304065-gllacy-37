@@ -213,6 +213,13 @@
   color: #2d3440;
 }
 
+/* gift */
+
+.gift-wrapper {
+  background-color: #ff7799;
+  border-radius: 16px;
+}
+
 /* about-us */
 
 .about-us-wrapper {
