@@ -231,8 +231,15 @@
 /* advantages */
 
 .advantages {
+  padding: 24px;
+
   background-image: url("../images/background/waffle.png");
   background-position: center;
+  border-radius: 16px;
+}
+
+.advantages-wrapper {
+  background-color: #ffffff;
   border-radius: 16px;
 }
 
