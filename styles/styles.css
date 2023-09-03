@@ -204,6 +204,16 @@
   border-radius: 30px;
 }
 
+/* footer */
+
+.footer-contacts {
+  color: #2d3440;
+}
+
+.footer-description-link {
+  color: #2d3440;
+}
+
 /* about-us */
 
 .about-us-wrapper {
