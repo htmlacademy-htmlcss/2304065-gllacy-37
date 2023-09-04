@@ -37,6 +37,7 @@ html {
   grid-template-rows: auto 1fr auto;
   min-width: 1366px;
   min-height: 100%;
+  margin: 0;
 
   font-family: "inter", sans-serif;
   font-style: normal;
@@ -446,7 +447,7 @@ html {
 /* pagination */
 
 .control-products-wrapper {
-  margin-top: 16px;
+  margin: 16px 0 40px;
   padding: 41px 98px;
 }
 
