@@ -328,6 +328,10 @@ html {
   border-radius: 8px;
 }
 
+.products-description {
+  margin: 0;
+}
+
 /* advantages */
 
 .advantages {
