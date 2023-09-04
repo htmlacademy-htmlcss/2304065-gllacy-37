@@ -201,6 +201,12 @@ html {
 
 /* header */
 
+.index-header {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 24px 0;
+}
+
 .phone-link {
   line-height: 20px;
   font-weight: 700;
