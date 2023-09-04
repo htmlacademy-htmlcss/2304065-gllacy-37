@@ -435,11 +435,20 @@ html {
 
 /* filters */
 
+.filters {
+  margin-bottom: 95px;
+}
+
 .filters-text {
   color: #2d3440;
 }
 
 /* pagination */
+
+.control-products-wrapper {
+  margin-top: 16px;
+  padding: 41px 98px;
+}
 
 .pagination-link_active {
   background-color: #fcfcfc;
