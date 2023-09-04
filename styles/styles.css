@@ -237,6 +237,11 @@ html {
 
 /* footer */
 
+.index-footer {
+  width: 1170px;
+  margin: 0 auto;
+}
+
 .footer-description-link {
   color: #2d3440;
 }
@@ -373,6 +378,8 @@ html {
 /* delivery */
 
 .delivery {
+  grid-column: 1/-1;
+
   background-image: url("../images/background/delivery.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -390,6 +397,8 @@ html {
 /* about-us */
 
 .about-us {
+  grid-column: 1/-1;
+
   background-image: url("../images/background/contacts.jpg");
   background-position: center;
   background-repeat: no-repeat;
