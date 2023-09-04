@@ -325,10 +325,13 @@ html {
 /* advantages */
 
 .advantages {
+  grid-column: 1/-1;
   padding: 24px;
 
   background-image: url("../images/background/waffle.png");
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   border-radius: 16px;
 }
 
