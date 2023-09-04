@@ -70,6 +70,10 @@ html {
   overflow: hidden;
 }
 
+.hidden {
+  display: none;
+}
+
 /* button */
 
 .button {
@@ -227,12 +231,6 @@ html {
   color: #2d3440;
 }
 
-/* gift */
-
-.gift-wrapper {
-  background-color: #ff7799;
-  border-radius: 16px;
-}
 
 /* main */
 
@@ -244,6 +242,30 @@ html {
   row-gap: 80px;
   width: 1170px;
   margin: 0 auto;
+}
+
+/* slider */
+
+.slider {
+  grid-area: 1/-1;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+/* gift */
+
+.gift {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 30px;
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+.gift-wrapper {
+  background-color: #ff7799;
+  border-radius: 16px;
 }
 
 /* products */
