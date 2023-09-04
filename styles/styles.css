@@ -234,6 +234,18 @@ html {
   border-radius: 16px;
 }
 
+/* main */
+
+.index-main {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  grid-template-rows: repeat(7, auto);
+  column-gap: 30px;
+  row-gap: 80px;
+  width: 1170px;
+  margin: 0 auto;
+}
+
 /* products */
 
 .products-item {
