@@ -252,7 +252,7 @@ html {
 
 .index-main {
   display: grid;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(2, 570px);
   grid-template-rows: repeat(7, auto);
   column-gap: 30px;
   row-gap: 80px;
@@ -275,7 +275,7 @@ html {
 
 .gift {
   display: grid;
-  grid-template-columns: repeat(4, 270px);
+  grid-template-columns: repeat(2, 570px);
   grid-template-rows: repeat(2, auto);
   column-gap: 30px;
   row-gap: 55px;
@@ -293,11 +293,11 @@ html {
 }
 
 .gift-wrapper:first-of-type {
-  grid-column: 1/3;
+  grid-column: 1/2;
 }
 
 .gift-wrapper:last-of-type {
-  grid-column: 3/-1;
+  grid-column: 2/-1;
 }
 
 .gift-description {
@@ -349,7 +349,7 @@ html {
 /* news */
 
 .news {
-  grid-column: 1/3;
+  grid-column: 1/2;
 
   background-image: url("../images/background/serving.jpg");
   background-position: center;
@@ -361,7 +361,7 @@ html {
 /* subscribe */
 
 .subscribe {
-  grid-column: 3/5;
+  grid-column: 2/-1;
   padding: 6px;
 
   background-image: url("../images/background/mail.png");
