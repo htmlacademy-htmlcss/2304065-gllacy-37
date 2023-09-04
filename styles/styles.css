@@ -141,6 +141,13 @@ html {
   text-decoration: none;
 }
 
+/* liss */
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
 /* text */
 
 .text {
@@ -293,7 +300,24 @@ html {
 
 /* products */
 
+.products {
+  grid-column: 1/-1;
+}
+
+.products-title {
+  grid-column: 1/-1;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(4, 270px);
+  column-gap: 30px;
+  row-gap: 91px;
+}
+
 .products-item {
+  width: 270px;
+
   background-color: #fcfcfc;
   border-radius: 8px;
 }
