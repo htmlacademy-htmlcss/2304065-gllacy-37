@@ -390,11 +390,22 @@ html {
 }
 
 .products-card-title {
-  margin-top: 133px;
+  margin: 133px 0 8px;
+
+  text-align: center;
 }
 
 .products-description {
-  margin: 0;
+  margin: 0 0 20px;
+
+  text-align: center;
+}
+
+.button-basket {
+  width: 32px;
+  height: 32px;
+  background-color: #ff2f64;
+  border-radius: 26px;
 }
 
 /* advantages */
