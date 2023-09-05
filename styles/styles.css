@@ -310,6 +310,10 @@ html {
 
 .title-gift {
   grid-column: 1/-1;
+  width: 435px;
+  margin: 0 auto;
+
+  text-align: center;
 }
 
 .gift-wrapper {
