@@ -352,11 +352,17 @@ html {
 /* products */
 
 .products {
+  display: grid;
+  gap: 107px;
   grid-column: 1/-1;
 }
 
 .products-title {
   grid-column: 1/-1;
+  width: 530px;
+  margin: 0 auto;
+
+  text-align: center;
 }
 
 .products-list {
