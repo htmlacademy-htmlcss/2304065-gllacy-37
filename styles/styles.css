@@ -373,10 +373,24 @@ html {
 }
 
 .products-item {
+  position: relative;
+
   width: 270px;
+  padding: 0 40px 28px;
 
   background-color: #fcfcfc;
   border-radius: 8px;
+}
+
+.img-products {
+  position: absolute;
+  top: -51px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.products-card-title {
+  margin-top: 133px;
 }
 
 .products-description {
