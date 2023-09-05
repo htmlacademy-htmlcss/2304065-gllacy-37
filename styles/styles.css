@@ -217,9 +217,34 @@ html {
 /* header */
 
 .index-header {
+  display: grid;
+  grid-template-columns: 137px 1fr;
+  column-gap: 16px;
+  align-items: center;
   width: 1170px;
   margin: 0 auto;
   padding: 24px 0;
+}
+
+.index-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+}
+
+.navigation-list:first-child .navigation-item {
+  padding: 8px 16px;
+}
+
+.navigation-list:last-child {
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
 }
 
 .phone-link {
