@@ -454,6 +454,10 @@ html {
   row-gap: 40px;
 }
 
+.advantages-item {
+  margin-left: 64px;
+}
+
 /* news */
 
 .news {
