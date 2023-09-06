@@ -154,6 +154,8 @@ html {
 /* text */
 
 .text {
+  margin: 0;
+
   font-family: "inter", sans-serif;
   font-style: normal;
   font-size: 16px;
@@ -462,12 +464,18 @@ html {
 
 .news {
   grid-column: 1/2;
+  padding: 32.6px 0 67.2px 32px;
 
   background-image: url("../images/background/serving.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+}
+
+.link-news {
+  display: block;
+  width: 305px;
 }
 
 /* subscribe */
