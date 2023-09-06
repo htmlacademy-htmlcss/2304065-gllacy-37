@@ -497,6 +497,7 @@ html {
 }
 
 .subscribe-wrappper {
+  height: 100%;
   padding: 26px;
 
   background-color: #ffffff;
