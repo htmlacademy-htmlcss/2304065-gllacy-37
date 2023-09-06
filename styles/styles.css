@@ -441,6 +441,12 @@ html {
   border-radius: 16px;
 }
 
+.title-advantages {
+  margin-bottom: 56px;
+
+  text-align: center;
+}
+
 .advantages-list {
   display: grid;
   grid-template-columns: repeat(2, 505px);
