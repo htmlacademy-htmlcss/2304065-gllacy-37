@@ -435,6 +435,8 @@ html {
 }
 
 .advantages-wrapper {
+  padding: 56px 40px;
+
   background-color: #ffffff;
   border-radius: 16px;
 }
