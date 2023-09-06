@@ -95,7 +95,7 @@ html {
 }
 
 .button-primary {
-  padding: auto 32px;
+  padding: 12px 32px;
 
   color: #2d3440;
 
@@ -347,6 +347,10 @@ html {
 .gift-img {
   justify-self: flex-end;
   align-self: flex-end;
+}
+
+.button-gift {
+  width: 176px;
 }
 
 /* products */
