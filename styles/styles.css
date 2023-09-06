@@ -379,6 +379,9 @@ html {
 .products-item {
   position: relative;
 
+  display: grid;
+  grid-template-columns: 150px 32px;
+  column-gap: 8px;
   width: 270px;
   padding: 0 40px 28px;
 
@@ -394,15 +397,21 @@ html {
 }
 
 .products-card-title {
+  grid-column: 1/-1;
   margin: 133px 0 8px;
 
   text-align: center;
 }
 
 .products-description {
+  grid-column: 1/-1;
   margin: 0 0 20px;
 
   text-align: center;
+}
+
+.product-price {
+  align-self: center;
 }
 
 .button-basket {
