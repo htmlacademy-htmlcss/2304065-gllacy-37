@@ -439,6 +439,13 @@ html {
   border-radius: 16px;
 }
 
+.advantages-list {
+  display: grid;
+  grid-template-columns: repeat(2, 505px);
+  column-gap: 32px;
+  row-gap: 40px;
+}
+
 /* news */
 
 .news {
