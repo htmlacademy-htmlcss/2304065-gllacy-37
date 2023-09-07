@@ -659,7 +659,13 @@ html {
 /* breadcrumbs */
 
 .catalog-header {
-  margin-bottom: 40px;
+  margin: 32px 0 40px;
+}
+
+.breadcrumbs-list {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 16px;
 }
 
 .breadcrumbs-link_active {
@@ -670,6 +676,20 @@ html {
 
 .filters {
   margin-bottom: 95px;
+}
+
+.form-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.form-filters fieldset:not(:last-of-type) {
+  margin-right: 16px;
+}
+
+.form-filters fieldset:last-of-type {
+  margin-right: 8px;
 }
 
 .filters-text {
