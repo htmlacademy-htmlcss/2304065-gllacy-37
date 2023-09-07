@@ -105,6 +105,8 @@ html {
 }
 
 .button-secondary {
+  padding: 12px 32px;
+
   color: #fcfcfc;
 
   background-color: #ff2f64;
