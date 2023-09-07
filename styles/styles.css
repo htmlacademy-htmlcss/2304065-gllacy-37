@@ -508,9 +508,21 @@ html {
   margin: 0 0 42px;
 }
 
+.form-subscribe-label {
+  display: flex;
+  justify-content: space-between;
+}
+
 /* delivery */
 
 .delivery {
+  display: grid;
+  grid-template-columns: 400px 500px;
+  grid-template-rows: min-content;
+  column-gap: 106px;
+  row-gap: 24px;
+
+  padding: 64px 64px 64px 100px;
   grid-column: 1/-1;
 
   background-image: url("../images/background/delivery.jpg");
@@ -520,11 +532,26 @@ html {
   border-radius: 16px;
 }
 
+.title-delivery {
+  align-self: flex-end;
+}
+
+.delivery-description {
+  grid-column: 1/2;
+  margin: 0;
+}
+
 .form-delivery {
+  grid-column: 2/3;
+  grid-row: 1/3;
   padding: 40px;
 
   background-color: #fcfcfc;
   border-radius: 8px;
+}
+
+.form-description {
+  margin: 0;
 }
 
 /* about-us */
