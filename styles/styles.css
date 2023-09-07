@@ -598,7 +598,9 @@ html {
 }
 
 .about-us-wrapper {
+  width: 343px;
   padding: 40px;
+  margin: 64px auto 64px 64px;
 
   font-style: normal;
 
