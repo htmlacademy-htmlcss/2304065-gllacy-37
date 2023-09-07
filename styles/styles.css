@@ -270,8 +270,33 @@ html {
 /* footer */
 
 .index-footer {
+  display: flex;
   width: 1170px;
+  padding: 48px 0;
   margin: 0 auto;
+}
+
+.social-list {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 208px;
+  margin-right: 155px;
+}
+
+.footer-menu-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  margin-right: auto;
+  width: 400px;
+}
+
+.footer-menu-item {
+  margin: 0 0 8px 24px;
+}
+
+.footer-contacts {
+  width: 193px;
 }
 
 .footer-description-link {
