@@ -61,7 +61,7 @@
       <section class="filters">
         <form class="form-filters" action="https://echo.htmlacademy.ru/" method="get">
           <!-- делаем флексом -->
-          <fieldset class="filters-sorting">
+          <fieldset class="filters-sorting filters-fieldset">
             <legend class="filters-text description-s">Сортировка:</legend>
             <select class="filters-select filters-text description-s" name="sorting">
               <option value="popular">по популярности</option>
@@ -69,7 +69,7 @@
               <option value="min-max">по возрастанию цены</option>
             </select>
           </fieldset>
-          <fieldset class="form-range-bar">
+          <fieldset class="form-range-bar filters-fieldset">
             <legend class="filters-text description-s">Цена: <span class="range-min-price">100 ₽</span> – <span class="range-max-price">500 ₽</span>
             </legend>
             <div class="range-scale">
@@ -83,7 +83,7 @@
               </div>
             </div>
           </fieldset>
-          <fieldset class="form-radio">
+          <fieldset class="form-radio filters-fieldset">
             <legend class="filters-text description-s">Жирность:</legend>
             <ul class="radio-list list filters-text description-s">
               <li class="radio-item">
@@ -116,7 +116,7 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset class="form-checkbox">
+          <fieldset class="form-checkbox filters-fieldset">
             <legend class="filters-text description-s">Наполнители:</legend>
             <ul class="checkbox-list list filters-text description-s">
               <li class="checkbox-item">
@@ -156,7 +156,7 @@
               </li>
             </ul>
           </fieldset>
-          <button class="button button-primary" type="submit">Применить</button>
+          <button class="button button-tertiary" type="submit">Применить</button>
         </form>
       </section>
       <section class="products">

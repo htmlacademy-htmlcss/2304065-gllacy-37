@@ -114,6 +114,15 @@ html {
   box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.10);
 }
 
+.button-tertiary {
+  padding: 8px 32px;
+
+  font-size: 14px;
+
+  background-color: rgba(252, 252, 252, 0.30);
+  border: 2px solid #fcfcfc;
+}
+
 /* input */
 
 .input::placeholder {
@@ -680,16 +689,46 @@ html {
 
 .form-filters {
   display: flex;
-  gap: 8px;
+  gap: 16px;
   flex-wrap: wrap;
 }
 
-.form-filters fieldset:not(:last-of-type) {
-  margin-right: 16px;
+.filters-fieldset {
+  margin: 0;
+  padding: 0;
+  /* border: none; */
 }
 
-.form-filters fieldset:last-of-type {
+.filters-select {
+  width: 196px;
+}
+
+.form-filters fieldset:not(:last-of-type) {
   margin-right: 8px;
+}
+
+.form-range-bar {
+  width: 196px;
+}
+
+.radio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0;
+  padding: 8px 16px;
+}
+
+.radio-item {
+  margin-left: 24px;
+}
+
+.checkbox-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 0;
+  padding: 9px 64px;
 }
 
 .filters-text {
