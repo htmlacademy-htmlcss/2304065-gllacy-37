@@ -160,6 +160,8 @@ html {
 .list {
   margin: 0;
   padding: 0;
+
+  list-style-type: none;
 }
 
 /* text */
@@ -397,6 +399,7 @@ html {
   display: grid;
   gap: 107px;
   grid-column: 1/-1;
+  margin-bottom: 16px;
 }
 
 .products-title {
@@ -458,6 +461,8 @@ html {
   background-color: #ff2f64;
   border-radius: 26px;
 }
+
+
 
 /* advantages */
 
@@ -719,7 +724,8 @@ html {
   padding: 8px 16px;
 }
 
-.radio-item {
+.radio-item,
+.checkbox-item {
   margin-left: 24px;
 }
 
@@ -731,6 +737,11 @@ html {
   padding: 9px 24px;
 }
 
+.button-form-filters {
+  align-self: flex-end;
+  width: 185px;
+}
+
 .filters-text {
   color: #2d3440;
 }
@@ -738,8 +749,35 @@ html {
 /* pagination */
 
 .control-products-wrapper {
-  margin: 16px 0 40px;
-  padding: 41px 98px;
+  display: flex;
+  margin: 0 0 40px;
+  padding: 41px 0;
+}
+
+.button-show-all {
+  align-self: center;
+  width: 179px;
+  margin: 0 auto;
+}
+
+.pagination-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pagination-list {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.pagination-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+
 }
 
 .pagination-link_active {
