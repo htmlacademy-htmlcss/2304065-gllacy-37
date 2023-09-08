@@ -728,7 +728,7 @@ html {
   flex-wrap: wrap;
   gap: 16px;
   margin: 0;
-  padding: 9px 64px;
+  padding: 9px 24px;
 }
 
 .filters-text {
