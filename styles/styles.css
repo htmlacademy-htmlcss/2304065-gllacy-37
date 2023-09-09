@@ -344,6 +344,8 @@ html {
 /* slider */
 
 .slider {
+  position: relative;
+
   grid-area: 1/-1;
   grid-column: 1/-1;
 }
@@ -463,6 +465,31 @@ html {
 
 .button-next {
   right: -16px;
+}
+
+.slider-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  max-width: 500px;
+}
+
+.slider-pagination-link {
+  display: block;
+  width: 12px;
+  height: 12px;
+
+  background-color: #fcfcfc;
+  border-radius: 12px;
+  opacity: 0.3;
+}
+
+.slider-pagination-link_active {
+  opacity: 1;
 }
 
 /* gift */
