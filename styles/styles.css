@@ -334,8 +334,25 @@ html {
   grid-column: 1/-1;
 }
 
+.slider-item {
+  display: flex;
+  align-items: center;
+}
+
+.slider-item-wrapper {
+  width: 455px;
+}
+
+.title-slider {
+  margin-bottom: 24px;
+}
+
 .slider-description {
-  margin: 0;
+  margin: 0 0 48px;
+}
+
+.button-slider-buy {
+  width: 139px;
 }
 
 /* gift */
