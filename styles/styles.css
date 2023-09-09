@@ -376,6 +376,8 @@ html {
 .slider-img-wrapper {
   position: relative;
 
+  margin: 21px 0 26px;
+
   opacity: 0.4;
 }
 
