@@ -284,6 +284,10 @@ html {
   border-radius: 30px;
 }
 
+.button-search {
+  padding: 8px;
+}
+
 /* footer */
 
 .index-footer {
