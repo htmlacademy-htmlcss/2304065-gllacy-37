@@ -343,6 +343,14 @@ html {
   align-items: center;
 }
 
+.slider-item:not(:last-child) {
+  margin-right: 41px;
+}
+
+.slider-item:first-child {
+  margin-right: auto;
+}
+
 .slider-item-wrapper {
   display: none;
   width: 470px;
