@@ -276,6 +276,10 @@ html {
 }
 
 .button-menu {
+  display: flex;
+  gap: 6px;
+  padding: 6px 16px;
+
   font-size: 14px;
   line-height: 20px;
   color: #2d3440;
