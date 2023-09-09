@@ -354,6 +354,7 @@ html {
 .slider-item-wrapper {
   display: none;
   width: 470px;
+  margin: auto auto auto 70px;
 }
 
 .slider-item_active .slider-item-wrapper {
