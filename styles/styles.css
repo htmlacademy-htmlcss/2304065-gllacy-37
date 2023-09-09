@@ -264,6 +264,12 @@ html {
   gap: 16px;
 }
 
+.navigation-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 .phone-link {
   line-height: 20px;
   font-weight: 700;
