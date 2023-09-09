@@ -449,16 +449,20 @@ html {
   border-radius: 26px;
 }
 
+.button-slider path {
+  fill: #fcfcfc;
+}
+
 .slider-item_active .button-slider {
   display: flex;
 }
 
 .button-prev {
-  left: -19px;
+  left: -16px;
 }
 
 .button-next {
-  right: -19px;
+  right: -16px;
 }
 
 /* gift */
