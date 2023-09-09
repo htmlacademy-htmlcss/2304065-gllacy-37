@@ -355,6 +355,25 @@ html {
   width: 139px;
 }
 
+.slider-img-wrapper {
+  position: relative;
+}
+
+.slider-img {
+  position: relative;
+  z-index: 1;
+}
+
+.slider-img-wrapper::before {
+  content: "";
+  position: absolute;
+
+  width: 100px;
+  height: 100px;
+  background-color: #ffcbd8;
+  border-radius: 327px;
+}
+
 /* gift */
 
 .gift {
