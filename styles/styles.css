@@ -1019,16 +1019,54 @@ html {
   padding: 17px 16px;
 }
 
+.form-range-bar {
+  width: 196px;
+}
+
 .range-scale {
+  position: relative;
+
   height: 2px;
   width: 164px;
 
-  background-color: #565c66;
-  opacity: 0.3;
+  background-color: rgba(86, 92, 102, 0.3);
 }
 
-.form-range-bar {
-  width: 196px;
+.range-bar {
+  position: absolute;
+
+  height: 2px;
+
+  background-color: #565c66;
+}
+
+.button-range {
+  position: absolute;
+  top: -7px;
+
+  width: 16px;
+  height: 16px;
+
+  background-color: #2d3440;
+  border-radius: 50%;
+}
+
+.button-range::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+
+  background-color: #fcfcfc;
+  border-radius: 50%;
+}
+
+.button-range-min {
+  left: -8px;
+}
+
+.button-range-max {
+  left: 62px;
 }
 
 .radio-list {
