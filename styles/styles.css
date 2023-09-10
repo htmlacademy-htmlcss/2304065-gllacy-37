@@ -791,6 +791,15 @@ html {
 .form-subscribe-label {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.input-form-subscribe {
+  width: 332px;
+  padding: 14px 0 14px 16px;
+
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
 }
 
 /* delivery */
