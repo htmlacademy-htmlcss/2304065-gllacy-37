@@ -697,7 +697,47 @@ html {
 }
 
 .advantages-item {
+  position: relative;
+
   margin-left: 64px;
+}
+
+.advantages-item-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -64px;
+
+  width: 48px;
+  height: 48px;
+
+  background-repeat: no-repeat;
+  border: 2px solid #2d3440;
+  border-radius: 50%;
+}
+
+.advantages-item_ice-cream::before {
+  background-image: url("../images/icon/ice-cream.svg");
+  background-position: center;
+  background-size: 32px;
+}
+
+.advantages-item_cow::before {
+  background-image: url("../images/icon/cow.svg");
+  background-position: center;
+  background-size: 32px;
+}
+
+.advantages-item_leaf::before {
+  background-image: url("../images/icon/leaf.svg");
+  background-position: center;
+  background-size: 32px;
+}
+
+.advantages-item_thermometer::before {
+  background-image: url("../images/icon/thermometer.svg");
+  background-position: center;
+  background-size: 32px;
 }
 
 /* news */
