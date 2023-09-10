@@ -125,6 +125,13 @@ html {
 
 /* input */
 
+.input {
+  padding: 14px 0 14px 16px;
+
+  border: 1px solid #b9b9b9;
+  border-radius: 4px;
+}
+
 .input::placeholder {
   font-size: 16px;
   color: #b9b9b9;
@@ -796,10 +803,6 @@ html {
 
 .input-form-subscribe {
   width: 332px;
-  padding: 14px 0 14px 16px;
-
-  border: 1px solid #b9b9b9;
-  border-radius: 4px;
 }
 
 /* delivery */
