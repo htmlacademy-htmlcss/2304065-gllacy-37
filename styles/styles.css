@@ -1015,6 +1015,18 @@ html {
   margin-right: 8px;
 }
 
+.range-wrapper {
+  padding: 17px 16px;
+}
+
+.range-scale {
+  height: 2px;
+  width: 164px;
+
+  background-color: #565c66;
+  opacity: 0.3;
+}
+
 .form-range-bar {
   width: 196px;
 }
