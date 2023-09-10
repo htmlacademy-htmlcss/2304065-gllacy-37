@@ -321,6 +321,23 @@ html {
   background-image: url("../images/social/telegram.svg");
   background-size: 24px;
   background-repeat: no-repeat;
+  background-position: center;
+  outline: 2px solid rgba(252, 252, 252, 0.30);
+}
+
+.social-link-vk {
+  background-image: url("../images/social/vk.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  outline: 2px solid rgba(252, 252, 252, 0.30);
+}
+
+.social-link-yt {
+  background-image: url("../images/social/youtube.svg");
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
   outline: 2px solid rgba(252, 252, 252, 0.30);
 }
 
