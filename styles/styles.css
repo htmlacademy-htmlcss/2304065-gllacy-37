@@ -993,7 +993,8 @@ html {
 .filters-fieldset {
   margin: 0;
   padding: 0;
-  /* border: none; */
+
+  border: none;
 }
 
 .filters-background {
@@ -1050,7 +1051,7 @@ html {
 
 .filters-title {
   padding: 0;
-  margin-bottom: 8px;
+  margin: 0 0 8px 16px;
 }
 
 /* pagination */
