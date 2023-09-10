@@ -959,6 +959,25 @@ html {
   border-bottom: 1px solid #2d3440;
 }
 
+.breadcrumbs-item {
+  position: relative;
+}
+
+.breadcrumbs-item:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -20px;
+  transform: translateY(-50%);
+
+  width: 12px;
+  height: 12px;
+
+  background-image: url("../images/control/chevrons-right.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /* filters */
 
 .filters {
@@ -975,6 +994,11 @@ html {
   margin: 0;
   padding: 0;
   /* border: none; */
+}
+
+.filters-background {
+  background-color: rgba(252, 252, 252, 0.30);
+  border-radius: 18px;
 }
 
 .filters-select {
@@ -1017,6 +1041,11 @@ html {
 
 .filters-text {
   color: #2d3440;
+}
+
+.filters-title {
+  padding: 0;
+  margin-bottom: 8px;
 }
 
 /* pagination */
