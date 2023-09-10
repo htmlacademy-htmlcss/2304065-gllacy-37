@@ -352,6 +352,7 @@ html {
 .footer-menu-list {
   display: grid;
   grid-template-columns: repeat(2, auto);
+  row-gap: 8px;
   margin-right: auto;
   width: 400px;
 }
@@ -359,11 +360,14 @@ html {
 .footer-menu-item {
   position: relative;
 
-  margin: 0 0 8px 24px;
+  align-self: start;
+
+  margin: 0 0 0 24px;
 }
 
 .footer-contacts {
   width: 193px;
+  margin-left: auto;
 }
 
 .footer-description-link {
