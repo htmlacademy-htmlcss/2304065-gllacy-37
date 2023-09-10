@@ -1003,6 +1003,11 @@ html {
 
 .filters-select {
   width: 196px;
+  padding: 8px 24px;
+
+  border: none;
+
+  appearance: none;
 }
 
 .form-filters fieldset:not(:last-of-type) {
