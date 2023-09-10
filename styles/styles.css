@@ -357,6 +357,8 @@ html {
 }
 
 .footer-menu-item {
+  position: relative;
+
   margin: 0 0 8px 24px;
 }
 
@@ -366,6 +368,22 @@ html {
 
 .footer-description-link {
   color: #2d3440;
+}
+
+.footer-menu-link_active::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  transform: translateY(-50%);
+
+  width: 16px;
+  height: 16px;
+
+  background-image: url("../images/icon/heart.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 
