@@ -748,9 +748,9 @@ html {
   min-height: 224px;
 
   background-image: url("../images/background/serving.jpg");
-  background-position: right;
+  background-position: 0 -109px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 112% 198%;
   border-radius: 16px;
 }
 
