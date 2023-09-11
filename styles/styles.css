@@ -1107,19 +1107,23 @@ html {
 /* pagination */
 
 .control-products-wrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: 670px 370px;
+  column-gap: 130px;
   margin: 0 0 40px;
   padding: 41px 0;
 }
 
 .button-show-all {
+  justify-self: end;
   align-self: center;
   width: 179px;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .pagination-wrapper {
   display: flex;
+  justify-self: end;
   align-items: center;
   gap: 8px;
   flex-wrap: wrap;
