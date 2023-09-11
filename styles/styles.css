@@ -1077,9 +1077,25 @@ html {
   padding: 8px 16px;
 }
 
-.radio-item,
-.checkbox-item {
-  margin-left: 24px;
+.radio-label,
+.checkbox-label {
+  position: relative;
+
+  display: block;
+  padding-left: 24px;
+}
+
+.checkbox-input {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  width: 16px;
+  height: 16px;
+
+  border: 1px solid #2d3440;
+  border-radius: 2px;
 }
 
 .checkbox-list {
