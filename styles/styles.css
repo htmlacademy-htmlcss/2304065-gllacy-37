@@ -625,7 +625,7 @@ html {
 
 .products {
   display: grid;
-  gap: 107px;
+  gap: 16px;
   grid-column: 1/-1;
   margin-bottom: 16px;
 }
@@ -633,7 +633,7 @@ html {
 .products-title {
   grid-column: 1/-1;
   width: 530px;
-  margin: 0 auto;
+  margin: 0 auto 107px;
 
   text-align: center;
 }
@@ -1120,6 +1120,8 @@ html {
 
 .pagination-wrapper {
   display: flex;
+  align-items: center;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
@@ -1141,4 +1143,24 @@ html {
 .pagination-link_active {
   background-color: #fcfcfc;
   border-radius: 50px;
+}
+
+.pagination-link-control {
+  position: relative;
+
+  display: block;
+  width: 16px;
+  height: 16px;
+}
+
+.pagination-link-prev {
+  background-image: url("../images/control/arrow-left.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pagination-link-next {
+  background-image: url("../images/control/arrow-right.svg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
