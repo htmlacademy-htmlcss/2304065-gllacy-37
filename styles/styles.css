@@ -1085,6 +1085,33 @@ html {
   padding-left: 24px;
 }
 
+.radio-input {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  width: 16px;
+  height: 16px;
+
+  border: 1px solid #2d3440;
+  border-radius: 50%;
+}
+
+.radio-input::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 6px;
+  height: 6px;
+
+  background-color: #2d3440;
+  border-radius: 50%;
+}
+
 .checkbox-input {
   position: absolute;
   top: 50%;
