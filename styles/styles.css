@@ -1098,7 +1098,7 @@ html {
   border-radius: 50%;
 }
 
-.radio-input::before {
+.radio-input-hiddden[type="radio"]:checked + .radio-input::before {
   content: "";
   position: absolute;
   top: 50%;
