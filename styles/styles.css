@@ -690,7 +690,9 @@ html {
   border-radius: 26px;
 }
 
-
+.product-catalog {
+  border-bottom: 1px solid rgba(252, 252, 252, 0.30);;
+}
 
 /* advantages */
 
