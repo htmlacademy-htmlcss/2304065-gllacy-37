@@ -1098,6 +1098,13 @@ html {
   border-radius: 2px;
 }
 
+.checkbox-input-hidden[type="checkbox"]:checked + .checkbox-input {
+  background-image: url("../images/control/check-on.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
 .checkbox-list {
   display: flex;
   flex-wrap: wrap;
