@@ -123,6 +123,11 @@ html {
   border: 2px solid #fcfcfc;
 }
 
+.button-basket-icon {
+  width: 16px;
+  height: 16px;
+}
+
 /* input */
 
 .input {
@@ -297,6 +302,10 @@ html {
 
 .button-search {
   padding: 8px;
+}
+
+.button-menu-basket .button-basket-icon {
+  fill: #2d3440;
 }
 
 /* footer */
@@ -690,7 +699,7 @@ html {
   border-radius: 26px;
 }
 
-.button-basket-icon {
+.button-basket .button-basket-icon {
   fill: #fcfcfc;
 }
 
