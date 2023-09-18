@@ -101,7 +101,35 @@ html {
 
   background-color: #fcfcfc;
   outline: 4px solid rgba(252, 252, 252, 0.40);
-  box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.10);
+  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.10);
+}
+
+.button-primary:hover:not(:disabled) {
+  background-color: rgba(252, 252, 252, 0.40);
+  outline: 4px solid #fcfcfc;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-primary:focus-visible {
+  background-color: rgba(252, 252, 252, 0.50);
+  outline: 2px solid #2d3440;
+  outline-offset: 0;
+}
+
+.button-primary:active {
+  background-color: #fcfcfc;
+  outline: 2px solid #2d3440;
+  outline-offset: 0;
+}
+
+.button-primary:disabled {
+  opacity: 0.4;
+}
+
+.button-primary_disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .button-secondary {
