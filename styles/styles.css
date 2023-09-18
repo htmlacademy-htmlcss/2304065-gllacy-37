@@ -302,6 +302,20 @@ html {
   font-weight: 700;
 }
 
+.phone-link:hover {
+  opacity: 0.6;
+}
+
+.phone-link:focus-visible {
+  border-radius: 30px;
+  outline: 2px solid #2d3440;
+  outline-offset: 2px;
+}
+
+.phone-link:active {
+  opacity: 0.3;
+}
+
 .button-menu {
   display: flex;
   gap: 6px;
