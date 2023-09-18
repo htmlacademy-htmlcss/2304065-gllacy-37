@@ -1136,8 +1136,10 @@ html {
   width: 16px;
   height: 16px;
 
-  border: 1px solid #2d3440;
-  border-radius: 2px;
+  background-image: url("../images/control/checkbox.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border: none;
 }
 
 .checkbox-input-hidden[type="checkbox"]:checked + .checkbox-input {
