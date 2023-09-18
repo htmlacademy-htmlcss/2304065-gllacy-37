@@ -1018,9 +1018,14 @@ html {
 }
 
 .filters-select {
+  position: relative;
+
   width: 196px;
   padding: 8px 24px;
 
+  background-image: url("../images/control/arrow-down.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
   border: none;
 
   appearance: none;
