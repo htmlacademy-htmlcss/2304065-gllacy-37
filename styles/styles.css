@@ -699,7 +699,7 @@ html {
   border-radius: 26px;
 }
 
-.button-basket .button-basket-icon {
+.button-basket path {
   fill: #fcfcfc;
 }
 
