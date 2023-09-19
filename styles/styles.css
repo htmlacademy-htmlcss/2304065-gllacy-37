@@ -648,13 +648,32 @@ html {
   width: 12px;
   height: 12px;
 
-  background-color: #fcfcfc;
+  background-color: rgba(252, 252, 252, 0.3);
   border-radius: 12px;
-  opacity: 0.3;
 }
 
 .slider-pagination-link_active {
-  opacity: 1;
+  background-color: #fcfcfc;
+
+  transition: 0.3s ease-in-out;
+}
+
+.slider-pagination-link:hover {
+  border: 1px solid #fcfcfc;
+  border-radius: 100px;
+
+  transition: 0.1s ease-in-out;
+}
+
+.slider-pagination-link:focus-visible {
+  background-color: rgba(252, 252, 252, 0.30);
+  outline: 1px solid #2d3440;
+  outline-offset: 0;
+}
+
+.slider-pagination-link:active {
+  background-color: rgba(252, 252, 252, 0.5);
+  border: none;
 }
 
 .social-list-slider {
