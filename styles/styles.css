@@ -620,6 +620,37 @@ html {
   fill: #fcfcfc;
 }
 
+.button-slider:hover {
+  background-color: #fcfcfc;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-slider:hover path {
+  fill: #2d3440;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-slider:focus-visible {
+  background-color: rgba(252, 252, 252, 0.30);
+  border: none;
+  outline: 2px solid #2d3440;
+}
+
+.button-slider:focus-visible path {
+  fill: #2d3440;
+}
+
+.button-slider:active {
+  background-color: rgba(252, 252, 252, 0.50);
+  border: none;
+}
+
+.button-slider:disabled {
+  opacity: 0.3;
+}
+
 .slider-item_active .button-slider {
   display: flex;
 }
@@ -659,7 +690,7 @@ html {
 }
 
 .slider-pagination-link:hover {
-  border: 1px solid #fcfcfc;
+  outline: 1px solid #fcfcfc;
   border-radius: 100px;
 
   transition: 0.1s ease-in-out;
