@@ -104,7 +104,7 @@ html {
   box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.10);
 }
 
-.button-primary:hover:not(:disabled) {
+.button-primary:hover {
   background-color: rgba(252, 252, 252, 0.40);
   outline: 4px solid #fcfcfc;
 
@@ -142,13 +142,25 @@ html {
   box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.10);
 }
 
-.button-secondary:hover:not(:disabled) {
+.button-secondary:hover {
   color: #2d3440;
 
   background-color: rgba(252, 252, 252, 0.30);
   outline: 4px solid #ff2f64;
 
   transition: 0.1s ease-in-out;
+}
+
+.button-secondary:focus-visible {
+  background-color: #ff2f64;
+  outline: 2px solid #2d3440;
+  outline-offset: 0;
+}
+
+.button-secondary:active {
+  background-color: #feafc3;
+  outline: 2px solid #2d3440;
+  outline-offset: 0;
 }
 
 .button-tertiary {
