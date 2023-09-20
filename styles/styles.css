@@ -420,11 +420,46 @@ html {
 }
 
 .social-link {
+  position: relative;
+
   display: block;
   width: 24px;
   height: 24px;
 
   border-radius: 24px;
+}
+
+.social-link::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.social-link:hover::before {
+  background-color: #2d3440;
+  transition: 0.1s ease-in-out;
+}
+
+.social-link:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 0;
+}
+
+.social-link:focus-visible::before {
+  background-color: #2d3440;
+}
+
+.social-link:active::before {
+  opacity: 0.5;
 }
 
 .social-link-telegram {
