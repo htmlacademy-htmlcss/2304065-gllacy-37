@@ -1059,6 +1059,21 @@ html {
   width: 305px;
 }
 
+.link-news:hover {
+  opacity: 0.5;
+}
+
+.link-news:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 4px;
+
+  border-radius: 10px;
+}
+
+.link-news:active {
+  opacity: 0.3;
+}
+
 .news-title {
   margin-bottom: 12.2px;
 }
