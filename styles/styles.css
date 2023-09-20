@@ -304,6 +304,21 @@ html {
   padding: 24px 0;
 }
 
+.link-logo:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 4px;
+
+  border-radius: 30px;
+}
+
+.link-logo:hover {
+  opacity: 0.5;
+}
+
+.link-logo:active {
+  opacity: 0.3;
+}
+
 .index-nav {
   display: flex;
   justify-content: space-between;
@@ -508,8 +523,27 @@ html {
   margin-left: auto;
 }
 
+.footer-description {
+  color: #2d3440;
+}
+
 .footer-description-link {
   color: #2d3440;
+}
+
+.footer-description-link:hover {
+  opacity: 0.5;
+}
+
+.footer-description-link:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 4px;
+
+  border-radius: 30px;
+}
+
+.footer-description-link:active {
+  opacity: 0.3;
 }
 
 .footer-menu-link:hover {
