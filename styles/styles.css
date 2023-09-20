@@ -882,6 +882,35 @@ html {
   fill: #fcfcfc;
 }
 
+.button-basket:hover {
+  background-color: rgba(252, 252, 252, 0.30);
+  border: 2px solid #ff2f64;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-basket:hover path {
+  fill: #2d3440;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-basket:focus-visible {
+  border: 2px solid #2d3440;
+}
+
+.button-basket:active {
+  background-color: #ffcbd8;
+}
+
+.button-basket:disabled {
+  background-color: #b9b9b9;
+}
+
+.button-basket:disabled path {
+  fill: #565c66;
+}
+
 .product-catalog {
   border-bottom: 1px solid rgba(252, 252, 252, 0.30);;
 }
