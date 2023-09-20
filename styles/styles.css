@@ -1214,6 +1214,21 @@ html {
   margin-bottom: 24px;
 }
 
+.about-us-phone:hover {
+  opacity: 0.5;
+}
+
+.about-us-phone:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 4px;
+
+  border-radius: 30px;
+}
+
+.about-us-phone:active {
+  opacity: 0.3;
+}
+
 .about-us-phone-description {
   margin: 0 0 32px;
 }
