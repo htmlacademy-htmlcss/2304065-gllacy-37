@@ -512,6 +512,20 @@ html {
   color: #2d3440;
 }
 
+.footer-menu-link:hover {
+  opacity: 0.5;
+}
+
+.footer-menu-link:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 4px;
+  border-radius: 30px;
+}
+
+.footer-menu-link:active {
+  opacity: 0.3;
+}
+
 .footer-menu-link_active::before {
   content: "";
   position: absolute;
