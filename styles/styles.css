@@ -1276,6 +1276,20 @@ html {
   margin-bottom: 16px;
 }
 
+.breadcrumbs-link:hover:not(.breadcrumbs-link_active) {
+  opacity: 0.5;
+}
+
+.breadcrumbs-link:focus-visible {
+  outline: 2px solid #2d3440;
+  outline-offset: 2px;
+  border-radius: 5px;
+}
+
+.breadcrumbs-link:active {
+  object-position: 0.3;
+}
+
 .breadcrumbs-link_active {
   border-bottom: 1px solid #2d3440;
 }
