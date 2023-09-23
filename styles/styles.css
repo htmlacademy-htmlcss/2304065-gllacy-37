@@ -1411,6 +1411,32 @@ html {
   border-radius: 50%;
 }
 
+.button-range:hover {
+  background-color: #fcfcfc;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-range:hover::before {
+  background-color: #2d3440;
+
+  transition: 0.1s ease-in-out;
+}
+
+.button-range:focus-visible {
+  background-color: #fcfcfc;
+
+  outline: 2px solid #2d3440;
+}
+
+.button-range:focus-visible::before {
+  background-color: #2d3440;
+}
+
+.button-range:active {
+  background-color: #2d3440;
+}
+
 .button-range-min {
   left: -8px;
 }
