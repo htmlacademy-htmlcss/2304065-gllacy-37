@@ -1350,6 +1350,15 @@ html {
   border: none;
 
   appearance: none;
+  cursor: pointer;
+}
+
+.filters-select:hover {
+  background-color: rgba(252, 252, 252, 0.5);
+}
+
+.filters-select:focus-visible {
+  outline: 2px solid #fcfcfc;
 }
 
 .form-filters fieldset:not(:last-of-type) {
