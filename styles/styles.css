@@ -223,6 +223,10 @@ html {
   transition: 0.1s ease-in-out;
 }
 
+.input:focus-visible {
+  outline: 2px solid #2d3440;
+}
+
 .input:not(:placeholder-shown) {
   border: 1px solid #ea5454;
 }
@@ -378,6 +382,10 @@ html {
   gap: 16px;
 }
 
+.navigation-item {
+  position: relative;
+}
+
 .navigation-link {
   display: flex;
   align-items: center;
@@ -457,6 +465,10 @@ html {
 
 .button-menu-basket .button-basket-icon {
   fill: #2d3440;
+}
+
+.navigation-products-sublist {
+  position: absolute;
 }
 
 /* footer */
