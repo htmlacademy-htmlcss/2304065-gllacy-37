@@ -1635,6 +1635,22 @@ html {
   display: block;
   width: 16px;
   height: 16px;
+
+  border-radius: 50%;
+}
+
+.pagination-link-control:hover {
+  opacity: 0.5;
+}
+
+.pagination-link-control:focus-visible {
+  background-color: rgba(252, 252, 252, 0.30);
+  border: 1px solid #2d3440;
+  outline: none;
+}
+
+.pagination-link-control:active {
+  opacity: 0.3;
 }
 
 .pagination-link-prev {
