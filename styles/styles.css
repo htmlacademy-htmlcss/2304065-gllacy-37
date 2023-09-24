@@ -472,6 +472,7 @@ html {
   top: 46px;
   z-index: 1;
 
+  display: none;
   width: 135px;
   padding: 8px 0;
 
@@ -485,10 +486,30 @@ html {
   padding: 6px 10px 6px 16px;
 }
 
+.navigation-products-subitem:hover {
+  background-color: #ffcbd8;
+
+  transition: 0.1s ease-in-out;
+}
+
+.navigation-products-subitem:active {
+  background-color: #ff7799;
+}
+
+.navigation-products-subitem_current {
+  color: #fcfcfc;
+
+  background-color: #ff4a78;
+}
+
 .navigation-products-subitem_active {
   position: relative;
-  font-weight: 700;
+
+  display: block;
+  padding: 8px 16px;
   margin-bottom: 8px;
+
+  font-weight: 700;
 }
 
 .navigation-products-subitem_active::after {
