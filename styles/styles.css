@@ -512,7 +512,7 @@ html {
   fill: #fcfcfc;
 }
 
-.navigation-link-products_active .navigation-products-sublist {
+.navigation-link-products_active + .navigation-products-sublist {
   display: block;
 }
 
