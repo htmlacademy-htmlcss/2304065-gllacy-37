@@ -481,6 +481,41 @@ html {
   box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
 }
 
+.navigation-link.navigation-link-products_active {
+  color: #fcfcfc;
+
+  background-color: #ff4a78;
+  border-radius: 30px;
+}
+
+.navigation-link.navigation-link-products_active:hover {
+  opacity: 0.6;
+
+  transition: 0.1s ease-in-out;
+}
+
+.navigation-link.navigation-link-products_active:focus-visible {
+  background-color: #ff4a78;
+  outline: 2px solid #000000;
+}
+
+.navigation-link.navigation-link-products_active:active {
+  opacity: 0.3;
+}
+
+.navigation-link.navigation-link-products_active svg {
+  align-self: flex-end;
+  transform: rotate(180deg);
+}
+
+.navigation-link.navigation-link-products_active path {
+  fill: #fcfcfc;
+}
+
+.navigation-link-products_active .navigation-products-sublist {
+  display: block;
+}
+
 .navigation-products-subitem {
   display: block;
   padding: 6px 10px 6px 16px;
