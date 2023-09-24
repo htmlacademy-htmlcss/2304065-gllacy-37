@@ -211,6 +211,28 @@ html {
   color: #b9b9b9;
 }
 
+.input:hover {
+  border: 1px solid #2d3440;
+
+  transition: 0.1s ease-in-out;
+}
+
+.input:hover::placeholder {
+  color: #2d3440;
+
+  transition: 0.1s ease-in-out;
+}
+
+.input:not(:placeholder-shown) {
+  border: 1px solid #ea5454;
+}
+
+.input:invalid:not(:placeholder-shown):hover {
+  outline: 1px solid #ea5454;
+
+  transition: 0.1s ease-in-out;
+}
+
 
 /* description */
 
