@@ -1606,11 +1606,27 @@ html {
   width: 24px;
   height: 24px;
 
+  border-radius: 50%;
+}
+
+.pagination-link:hover {
+  background-color: rgba(252, 252, 252, 0.50);
+
+  transition: 0.1s ease-in-out;
+}
+
+.pagination-link:focus-visible {
+  background-color: rgba(252, 252, 252, 0.30);
+  border: 1px solid #2d3440;
+  outline: none;
+}
+
+.pagination-link:active {
+  border: 1px solid #fcfcfc;
 }
 
 .pagination-link_active {
   background-color: #fcfcfc;
-  border-radius: 50px;
 }
 
 .pagination-link-control {
