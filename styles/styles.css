@@ -588,7 +588,6 @@ html {
   outline: none;
 }
 
-
 .input-form-search[type=search]::-webkit-search-cancel-button {
   display: none;
 }
@@ -636,6 +635,60 @@ html {
 .button-menu.button-search_active:active {
   background-color: #ff4a78;
   opacity: 0.3;
+}
+
+.entry-wrapper {
+  position: absolute;
+  top: 37px;
+  right: 0;
+  z-index: 2;
+
+  display: grid;
+  row-gap: 32px;
+
+  width: 420px;
+  padding: 48px 48px 52px;
+
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
+}
+
+.form-entry {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: repeat(3, auto);
+  column-gap: 23px;
+  grid-column: 1/-1;
+}
+
+.title-entry {
+  grid-column: 1/-1;
+}
+
+.input-form-entry {
+  width: 100%;
+}
+
+.form-entry-label {
+  display: block;
+  grid-column: 1/-1;
+}
+
+.form-entry-label:first-of-type {
+  margin-bottom: 16px;
+}
+
+.form-entry-label:last-of-type {
+  margin-bottom: 32px;
+}
+
+.input-form-entry::placeholder {
+  color: #2d3440;
+}
+
+.entry-list {
+  grid-column: 2/3;
 }
 
 /* footer */

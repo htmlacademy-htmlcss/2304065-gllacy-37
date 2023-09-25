@@ -59,7 +59,7 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.6633 8.188c0-2.5774 2.0893-4.6667 4.6667-4.6667 2.5773 0 4.6666 2.0893 4.6666 4.6666 0 1.2573-.4972 2.3985-1.3057 3.2376a.6699.6699 0 0 0-.1234.1234c-.8392.8085-1.9803 1.3057-3.2375 1.3057-2.5774 0-4.6667-2.0893-4.6667-4.6667Zm8.4118 4.6879a5.9747 5.9747 0 0 1-3.7451 1.312c-3.3137 0-6-2.6862-6-6 0-3.3137 2.6863-6 6-6s6 2.6863 6 6a5.9748 5.9748 0 0 1-1.3121 3.7452l2.4501 2.4501a.6666.6666 0 0 1 0 .9428.6666.6666 0 0 1-.9428 0l-2.4501-2.4501Z" fill="#2D3440"/>
               </svg>
             </a>
-            <form class="form form-search" action="https://echo.htmlacademy.ru/" method="post">
+            <form class="form form-search" action="https://echo.htmlacademy.ru/" method="get">
               <label class="form-search-label">
                 <input class="input input-form-search" type="search" name="search" placeholder="Поиск по сайту">
                 <button class="button button-search-cancel" type="reset">
@@ -75,6 +75,26 @@
               </svg>
               Вход
             </a>
+            <div class="entry-wrapper">
+              <h2 class="title title-l title-entry">Личный кабинет</h2>
+              <form class="form-entry" action="https://echo.htmlacademy.ru/" method="post">
+                <label class="form-entry-label">
+                  <input class="input input-form-entry" type="email" name="email-entry" placeholder="email@example.com" required>
+                </label>
+                <label class="form-entry-label">
+                  <input class="input input-form-entry" type="password" name="password" placeholder="••••••" required>
+                </label>
+                <button class="button button-secondary" type="submit">Войти</button>
+                <ul class="list entry-list">
+                  <li class="entry-item">
+                    <a class="link entry-link" href="#">Забыли пароль?</a>
+                  </li>
+                  <li class="entry-item">
+                    <a class="link entry-link" href="#">Регистрация</a>
+                  </li>
+                </ul>
+              </form>
+            </div>
           </li>
           <li class="navigation-item">
             <a class="button link button-menu button-menu-basket" href="#">
@@ -89,10 +109,8 @@
     </header>
     <main class="index-main">
       <h1 class="visually-hidden">Gllacy - магазин по продаже мороженого.</h1>
-      <!-- main делаем гридом -->
       <section class="slider">
         <h2 class="visually-hidden">Новинки вкусов.</h2>
-        <!-- slider делаем флексом -->
         <ol class="slider-list list">
           <!-- класс slider-img-item_active показывает активный лист слайдера и скрывает остальные -->
           <li class="slider-item slider-item_active">
@@ -180,7 +198,6 @@
           </li>
         </ol>
         <ul class="social-list social-list-slider list">
-          <!-- Иконки вставить svg -->
           <li class="social-item">
             <a class="social-link social-link-telegram" href="https://t.me/htmlacademy" target="_blank" rel="noopener">
               <span class="visually-hidden">Телеграм.</span>
@@ -200,7 +217,6 @@
       </section>
       <section class="gift">
         <h2 class="title title-xl title-gift">Заказывайте мороженое и получайте подарки!</h2>
-        <!-- делаем гридом -->
         <div class="gift-wrapper">
           <div class="gift-wrapper-description">
             <h3 class="title title-l">Малинка даром!</h3>
@@ -220,7 +236,6 @@
       </section>
       <section class="products">
         <h2 class="title title-l products-title">Попробуйте самые популярные вкусы&nbsp;нашего мороженого</h2>
-        <!-- делаем гридом -->
         <ul class="products-list list">
           <li class="products-item">
             <img class="img-products" src="images/product/product-raspberries.png" width="168" height="168" alt="Шарик малинового мороженого.">
@@ -273,7 +288,6 @@
         </ul>
       </section>
       <section class="advantages">
-        <!-- делаем гридом -->
         <div class="advantages-wrapper">
           <h2 class="title title-xl title-advantages">Магазин Глейси – это онлайн и офлайн-магазин по продаже мороженого собственного производства на развес</h2>
           <ul class="advantages-list list">
@@ -303,11 +317,9 @@
         </div>
       </section>
       <section class="delivery">
-        <!-- делаем гридом -->
         <h2 class="title title-xl title-delivery">Доставка любимого мороженого на дом</h2>
         <p class="delivery-description">Хочется полакомиться любимым десертом, но&nbsp;нет времени съездить в магазин? Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
         <form class="form-delivery" action="https://echo.htmlacademy.ru/" method="post">
-          <!-- а форму можно и флекс -->
           <p class="form-description">Укажите адрес и дату доставки, и мы свяжемся с&nbsp;вами, чтобы подтвердить заказ.</p>
           <div class="form-wrapper">
             <label class="title text-s form-title" for="date">Дата</label>
@@ -325,7 +337,6 @@
         </form>
       </section>
       <section class="about-us">
-        <!-- делаем марджинами -->
         <h2 class="visually-hidden">Наши контакты.</h2>
         <address class="about-us-wrapper">
           <p class="about-us-description">Адрес главного офиса<br>и офлайн-магазина:</p>
