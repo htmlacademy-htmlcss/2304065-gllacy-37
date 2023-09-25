@@ -212,7 +212,7 @@ html {
 }
 
 .input:hover {
-  border: 1px solid #2d3440;
+  outline: 1px solid #2d3440;
 
   transition: 0.1s ease-in-out;
 }
@@ -227,8 +227,8 @@ html {
   outline: 2px solid #2d3440;
 }
 
-.input:not(:placeholder-shown) {
-  border: 1px solid #ea5454;
+.input:invalid:not(:placeholder-shown) {
+  outline: 1px solid #ea5454;
 }
 
 .input:invalid:not(:placeholder-shown):hover {
@@ -558,6 +558,24 @@ html {
   height: 1px;
 
   background-color: #b9b9b9;
+}
+
+.form-search {
+  position: absolute;
+  top: 37px;
+  right: 0;
+  z-index: 2;
+
+  padding: 24px 16px;
+
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(45, 52, 64, 0.12);
+}
+
+.input-form-search {
+  width: 324px;
+  appearance: none;
 }
 
 /* footer */
