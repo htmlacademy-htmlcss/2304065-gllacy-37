@@ -580,6 +580,15 @@ html {
   width: 324px;
 }
 
+.input.input-form-search:hover {
+  outline: none;
+}
+
+.input.input-form-search:focus {
+  outline: none;
+}
+
+
 .input-form-search[type=search]::-webkit-search-cancel-button {
   display: none;
 }
