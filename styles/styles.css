@@ -641,7 +641,7 @@ html {
   position: absolute;
   top: 37px;
   right: 0;
-  z-index: 2;
+  z-index: 3;
 
   display: grid;
   row-gap: 32px;
@@ -688,7 +688,21 @@ html {
 }
 
 .entry-list {
+  display: flex;
+  flex-direction: column;
   grid-column: 2/3;
+}
+
+.entry-link {
+  border-bottom: 1px solid #2d3440;
+}
+
+.entry-link:hover {
+  opacity: 0.5;
+}
+
+.entry-link:active {
+  opacity: 0.3;
 }
 
 /* footer */
