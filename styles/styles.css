@@ -437,6 +437,7 @@ html {
 
   font-size: 14px;
   line-height: 20px;
+  font-weight: 400;
   color: #2d3440;
 
   background-color: rgba(252, 252, 252, 0.30);
@@ -703,6 +704,16 @@ html {
 
 .entry-link:active {
   opacity: 0.3;
+}
+
+.button-menu.button-entry_active {
+  color: #fcfcfc;
+
+  background-color: #ff4a78;
+}
+
+.button-menu.button-entry_active path {
+  fill: #fcfcfc;
 }
 
 /* footer */
