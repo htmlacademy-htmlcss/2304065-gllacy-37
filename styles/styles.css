@@ -738,7 +738,7 @@ html {
   right: 0;
   z-index: 3;
 
-  display: grid;
+  display: none;
   grid-template-columns: 198px auto;
   grid-template-rows: repeat(3, auto);
   column-gap: 32px;
@@ -823,6 +823,28 @@ html {
 
 .title-basket-total-price {
   align-self: center;
+}
+
+.button-menu-basket_active + .basket-wrapper {
+  display: grid;
+}
+
+.button-menu-basket.button-menu-basket_active {
+  color: #fcfcfc;
+
+  background-color: #ff4a78;
+}
+
+.button-menu-basket_active path {
+  fill: #fcfcfc;
+}
+
+.button-menu-basket.button-menu-basket_active:hover {
+  opacity: 0.6;
+}
+
+.button-menu-basket.button-menu-basket_active:active {
+  opacity: 0.3;
 }
 
 /* footer */
