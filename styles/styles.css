@@ -207,6 +207,7 @@ html {
 }
 
 .input::placeholder {
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   color: #b9b9b9;
 }
@@ -2121,4 +2122,26 @@ html {
 
 .button-modal-close:active {
   opacity: 0.3;
+}
+
+.form-modal-label:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.form-modal-label:last-of-type {
+  margin-bottom: 32px;
+}
+
+.input-form-modal {
+  width: 442px;
+}
+
+.input-form-free-text {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #2d3440;
+
+  min-height: 149px;
+  resize: none;
 }
