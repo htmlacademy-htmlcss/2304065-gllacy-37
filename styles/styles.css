@@ -1107,7 +1107,7 @@ html {
 
   width: 100px;
   height: 100px;
-  background-color: #ffcbd8;
+  background-color: rgba(252, 252, 252, 0.3);
   border-radius: 327px;
 }
 
@@ -1530,6 +1530,11 @@ html {
 
 .subscribe-description {
   margin: 0 0 42px;
+}
+
+.form-subscribe {
+  display: flex;
+  justify-content: space-between;
 }
 
 .form-subscribe-label {
@@ -2148,4 +2153,8 @@ html {
 
 .button-modal-submmit {
   margin-left: auto;
+}
+
+.modal-display-none {
+  display: none;
 }
