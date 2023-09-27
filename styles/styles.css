@@ -1603,7 +1603,10 @@ html {
 }
 
 .form-title {
-  display: block;
+  position: relative;
+
+  display: flex;
+  align-items: center;
   margin-bottom: 8px;
 }
 
@@ -1615,6 +1618,62 @@ html {
   grid-column: 1/-1;
   margin: 0 auto;
   min-width: 152px;
+}
+
+.button-tooltip {
+  position: relative;
+
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+
+  background-color: transparent;
+  background-image: url("../images/control/info.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button-tooltip:hover .tooltip {
+  display: block;
+
+  transition: 0.1s ease-in-out;
+}
+
+.tooltip {
+  position: absolute;
+  top: -11px;
+  left: 27px;
+
+  display: none;
+  padding: 10px 8px;
+
+  font-weight: 400;
+  color: #565c66;
+
+  background-color: #ffffff;
+  border: 1px solid #b9b9b9;
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(194, 194, 194, 0.2);
+}
+
+.tooltip::before {
+  content: "";
+
+  position: absolute;
+  left: -7.5px;
+  transform: rotate(45deg);
+
+  width: 14px;
+  height: 14px;
+
+  background-color: #ffffff;
+  border: 1px solid #b9b9b9;
+  border-top: none;
+  border-right: none;
+}
+
+.tooltip-address {
+  width: 169px;
 }
 
 /* about-us */
