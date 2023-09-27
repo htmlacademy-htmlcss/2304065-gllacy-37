@@ -1643,12 +1643,14 @@ html {
   position: absolute;
   top: -11px;
   left: 27px;
+  z-index: 2;
 
   display: none;
   padding: 10px 8px;
 
   font-weight: 400;
   color: #565c66;
+  text-align: left;
 
   background-color: #ffffff;
   border: 1px solid #b9b9b9;
@@ -1670,6 +1672,10 @@ html {
   border: 1px solid #b9b9b9;
   border-top: none;
   border-right: none;
+}
+
+.tooltip-date {
+  width: 100px;
 }
 
 .tooltip-address {
