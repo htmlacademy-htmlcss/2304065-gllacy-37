@@ -8,7 +8,7 @@
   </head>
   <body class="body body-strawberry">
     <header class="index-header">
-      <a class="link-logo">
+      <a class="link-logo" href="index.html">
         <img class="img-logo" src="images/logo/gllacy-shop.svg" width="137" height="56" alt="Магазин Gllacy.">
       </a>
       <nav class="index-nav">
@@ -25,7 +25,7 @@
                 <a class="link description-s navigation-products-subitem navigation-products-subitem_active" href="#">Новинки</a>
               </li>
               <li>
-                <a class="link description-s navigation-products-subitem" href="#">Сливочное</a>
+                <a class="link description-s navigation-products-subitem navigation-products-subitem_current" href="#">Сливочное</a>
               </li>
               <li>
                 <a class="link description-s navigation-products-subitem" href="#">Щербеты</a>
@@ -401,29 +401,29 @@
         <div class="control-products-wrapper">
           <a class="button button-primary button-show-all" href="#">Показать еще</a>
           <div class="pagination-wrapper">
-            <a class="link pagination-link-control pagination-link-prev pagination-link-prev_disabled" href="#">
+            <button class="pagination-link-control pagination-link-prev" type="button" disabled>
               <span class="visually-hidden">Предыдущая страница.</span>
-            </a>
+            </button>
             <ol class="pagination-list list text-s">
               <li class="pagination-item">
-                <a class="link pagination-link pagination-link_active" href="#">1</a>
+                <button class="pagination-link pagination-link_active" type="button">1</button>
               </li>
               <li class="pagination-item">
-                <a class="link pagination-link" href="#">2</a>
+                <button class="link pagination-link" type="button">2</button>
               </li>
               <li class="pagination-item">
-                <a class="link pagination-link" href="#">3</a>
+                <button class="link pagination-link" type="button">3</button>
               </li>
               <li class="pagination-item">
-                <a class="link pagination-link" href="#">4</a>
+                <button class="link pagination-link" type="button">4</button>
               </li>
               <li class="pagination-item">
-                <a class="link pagination-link" href="#">5</a>
+                <button class="link pagination-link" type="button">5</button>
               </li>
             </ol>
-            <a class="link pagination-link-control pagination-link-next" href="#">
+            <button class="link pagination-link-control pagination-link-next" type="button">
               <span class="visually-hidden">Следующая страница.</span>
-            </a>
+            </button>
           </div>
         </div>
       </section>

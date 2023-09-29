@@ -2085,6 +2085,12 @@ html {
   width: 24px;
   height: 24px;
 
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+
+  background-color: transparent;
+  border: none;
   border-radius: 50%;
 }
 
@@ -2115,7 +2121,9 @@ html {
   width: 16px;
   height: 16px;
 
+  background-color: transparent;
   border-radius: 50%;
+  border: none;
 }
 
 .pagination-link-control:hover {
@@ -2130,6 +2138,11 @@ html {
 
 .pagination-link-control:active {
   opacity: 0.3;
+}
+
+.pagination-link-control:disabled {
+  opacity: 0.3;
+
 }
 
 .pagination-link-prev {
