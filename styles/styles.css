@@ -1755,7 +1755,7 @@ html {
   margin-bottom: 16px;
 }
 
-.breadcrumbs-link:hover:not(.breadcrumbs-link_active) {
+.breadcrumbs-link:hover:not(:last-child) {
   opacity: 0.5;
 }
 
@@ -1769,7 +1769,7 @@ html {
   opacity: 0.3;
 }
 
-.breadcrumbs-link_active {
+.breadcrumbs-item:last-child {
   border-bottom: 1px solid #2d3440;
 }
 
@@ -2092,6 +2092,8 @@ html {
   background-color: transparent;
   border: none;
   border-radius: 50%;
+
+  cursor: pointer;
 }
 
 .pagination-link:hover {
@@ -2124,6 +2126,8 @@ html {
   background-color: transparent;
   border-radius: 50%;
   border: none;
+
+  cursor: pointer;
 }
 
 .pagination-link-control:hover {
@@ -2143,6 +2147,7 @@ html {
 .pagination-link-control:disabled {
   opacity: 0.3;
 
+  cursor: default;
 }
 
 .pagination-link-prev {
