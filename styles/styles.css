@@ -1284,8 +1284,6 @@ html {
   grid-column: 1/2;
 }
 
-
-
 .gift-wrapper {
   display: flex;
   align-items: center;
@@ -1298,7 +1296,7 @@ html {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(3, auto);
-  row-gap: 28px;
+  row-gap: 26px;
   padding: 36px 0 36px 36px;
 }
 
