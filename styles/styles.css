@@ -1054,7 +1054,8 @@ html {
 .slider-item-wrapper {
   display: none;
   width: 470px;
-  margin: auto auto auto 70px;
+  margin-left: 70px;
+  /* margin: 136px auto 138px 70px; */
 }
 
 .slider-item_active .slider-item-wrapper {
@@ -1066,6 +1067,7 @@ html {
 }
 
 .title-slider {
+  margin-top: -7px;
   margin-bottom: 24px;
 }
 
@@ -1080,7 +1082,7 @@ html {
 .slider-img-wrapper {
   position: relative;
 
-  margin: 21px 0 26px;
+  margin: 19px 0;
 
   opacity: 0.4;
 }
@@ -1264,7 +1266,7 @@ html {
 
 .gift-list {
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 570px);
   column-gap: 30px;
 
   grid-column: 1/-1;
@@ -1274,10 +1276,15 @@ html {
   display: grid;
   grid-template-columns: auto auto 219px;
 
-
   background-color: #ff7799;
   border-radius: 16px;
 }
+
+.gift-item:nth-child(odd) {
+  grid-column: 1/2;
+}
+
+
 
 .gift-wrapper {
   display: flex;
@@ -1286,14 +1293,6 @@ html {
   background-color: #ff7799;
   border-radius: 16px;
 }
-
-/* .gift-wrapper:first-of-type {
-  grid-column: 1/2;
-}
-
-.gift-wrapper:last-of-type {
-  grid-column: 2/-1;
-} */
 
 .gift-wrapper-description {
   display: grid;
