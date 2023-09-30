@@ -370,12 +370,15 @@ html {
 .index-nav {
   display: flex;
   justify-content: space-between;
+
+  line-height: 20px;
 }
 
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
   width: 485px;
+  margin-top: -6px;
 }
 
 .navigation-list:last-child {
@@ -393,6 +396,8 @@ html {
   align-items: center;
   gap: 6px;
   padding: 8px 16px;
+
+  line-height: 20px;
 }
 
 .navigation-link:hover {
