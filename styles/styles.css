@@ -1325,13 +1325,12 @@ html {
   display: grid;
   gap: 16px;
   grid-column: 1/-1;
-  margin-bottom: 16px;
 }
 
 .products-title {
   grid-column: 1/-1;
   width: 530px;
-  margin: 0 auto 107px;
+  margin: 0 auto 91px;
 
   text-align: center;
 }
@@ -1350,7 +1349,7 @@ html {
   grid-template-columns: 150px 32px;
   column-gap: 8px;
   width: 270px;
-  padding: 0 40px 28px;
+  padding: 0 40px 24px;
 
   background-color: #fcfcfc;
   border-radius: 8px;
@@ -1372,7 +1371,7 @@ html {
 
 .products-description {
   grid-column: 1/-1;
-  margin: 0 0 20px;
+  margin: 0 0 16px;
 
   text-align: center;
 }
