@@ -2298,6 +2298,14 @@ html {
 .button-primary .loader {
   margin-left: 8px;
 }
+.button-secondary .loader {
+  margin-left: 8px;
+
+  border-top: 2px solid rgba(252, 252, 252, 0.25);
+  border-right: 2px solid rgba(252, 252, 252, 0.25);
+  border-bottom: 2px solid rgba(252, 252, 252, 0.25);
+  border-left: 2px solid #fcfcfc;
+}
 
 .loader > .button-primary {
   width: calc(100% + 24px);
