@@ -1784,7 +1784,7 @@ html {
 /* breadcrumbs */
 
 .catalog-header {
-  margin: 32px 0 40px;
+  margin: 24px 0 40px;
 }
 
 .breadcrumbs-list {
@@ -1859,11 +1859,13 @@ html {
   position: relative;
 
   width: 196px;
-  padding: 8px 24px;
+  padding: 8px 17px;
+
+  letter-spacing: 0.5px;
 
   background-image: url("../images/control/arrow-down.svg");
   background-repeat: no-repeat;
-  background-position: right 16px center;
+  background-position: right 13px center;
   border: none;
 
   appearance: none;
@@ -1959,15 +1961,15 @@ html {
 }
 
 .button-range-max {
-  left: 62px;
+  left: 64px;
 }
 
 .radio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 17px;
   margin: 0;
-  padding: 8px 16px;
+  padding: 8px 24px;
 }
 
 .radio-label,
@@ -2066,7 +2068,7 @@ html {
 .checkbox-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 17px;
   margin: 0;
   padding: 9px 24px;
 }
