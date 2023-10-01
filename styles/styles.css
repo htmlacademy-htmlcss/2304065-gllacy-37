@@ -868,7 +868,7 @@ html {
   gap: 16px;
   flex-wrap: wrap;
   width: 208px;
-  margin-right: 155px;
+  margin-right: 179px;
 }
 
 .social-link {
@@ -943,7 +943,7 @@ html {
   grid-template-columns: repeat(2, auto);
   row-gap: 8px;
   margin-right: auto;
-  width: 400px;
+  width: 357px;
 }
 
 .footer-menu-item {
@@ -951,7 +951,8 @@ html {
 
   align-self: start;
 
-  margin: 0 0 0 24px;
+  /* margin: 0 0 0 24px; */
+  margin: 0;
 }
 
 .footer-contacts {
@@ -1009,6 +1010,10 @@ html {
   background-image: url("../images/icon/heart.svg");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.footer-contacts-description {
+  margin-top: 10px;
 }
 
 
@@ -1600,6 +1605,7 @@ html {
 
 .title-delivery {
   align-self: flex-end;
+  margin-top: 4px;
 }
 
 .delivery-description {
@@ -1728,7 +1734,7 @@ html {
 
 .about-us-wrapper {
   width: 343px;
-  padding: 40px;
+  padding: 40px 40px 42px;
   margin: 64px auto 64px 64px;
 
   font-style: normal;
