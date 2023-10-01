@@ -201,7 +201,7 @@ html {
 /* input */
 
 .input {
-  padding: 14px 0 14px 16px;
+  padding: 16px 0 14px 16px;
 
   border: 1px solid #b9b9b9;
   border-radius: 4px;
@@ -1639,7 +1639,7 @@ html {
 
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 
 .input-delivery {
