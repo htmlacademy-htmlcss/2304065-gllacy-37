@@ -477,7 +477,8 @@ html {
 
 .navigation-products-sublist {
   position: absolute;
-  top: 46px;
+  top: 44px;
+  left: 2px;
   z-index: 1;
 
   display: none;
@@ -570,8 +571,8 @@ html {
 
 .form-search {
   position: absolute;
-  top: 37px;
-  right: 0;
+  top: 41px;
+  right: -1px;
   z-index: 2;
 
   display: none;
@@ -647,8 +648,8 @@ html {
 
 .entry-wrapper {
   position: absolute;
-  top: 37px;
-  right: 0;
+  top: 41px;
+  right: -2px;
   z-index: 3;
 
   display: none;
@@ -678,6 +679,10 @@ html {
   width: 100%;
 }
 
+.input-form-password {
+  letter-spacing: -2px;
+}
+
 .form-entry-label {
   display: block;
   grid-column: 1/-1;
@@ -699,6 +704,10 @@ html {
   display: flex;
   flex-direction: column;
   grid-column: 2/3;
+}
+
+.entry-item-registration {
+  margin-top: 3px;
 }
 
 .entry-link {
@@ -741,7 +750,7 @@ html {
 
 .basket-wrapper {
   position: absolute;
-  top: 37px;
+  top: 40px;
   right: 0;
   z-index: 3;
 
@@ -752,7 +761,7 @@ html {
   row-gap: 32px;
 
   width: 441px;
-  padding: 48px;
+  padding: 46px 48px 49px;
 
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -761,6 +770,7 @@ html {
 
 .title-basket-wrapper {
   grid-column: 1/-1;
+  margin-top: 2px;
 }
 
 .basket-products-list {
@@ -781,13 +791,13 @@ html {
 }
 
 .basket-products-item:last-of-type {
-  margin-bottom: 32px;
+  margin-bottom: 28px;
 }
 
 .basket-products-item:last-of-type::after {
   content: "";
   position: relative;
-  top: 32px;
+  top: 26px;
   width: 345px;
   border-bottom: 1px solid #e7e7e7;
 }
