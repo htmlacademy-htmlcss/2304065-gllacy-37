@@ -1507,7 +1507,7 @@ html {
   grid-column: 1/-1;
   padding: 24px;
 
-  background-image: url("../images/background/waffle.png");
+  background-image: url("../images/background/waffle.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1622,7 +1622,7 @@ html {
   grid-column: 2/-1;
   padding: 6px;
 
-  background-image: url("../images/background/mail.png");
+  background-image: url("../images/background/mail.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1644,6 +1644,7 @@ html {
 .form-subscribe {
   display: flex;
   justify-content: space-between;
+  margin-right: 4px;
 }
 
 .form-subscribe-label {
@@ -1669,9 +1670,9 @@ html {
   grid-column: 1/-1;
 
   background-image: url("../images/background/delivery.jpg");
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 0;
+  background-size: 105% 151%;
   border-radius: 16px;
 }
 
@@ -1701,6 +1702,12 @@ html {
 .form-description {
   grid-column: 1/-1;
   margin: 0 0 12px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .form-wrapper:nth-of-type(1) {
@@ -1770,7 +1777,7 @@ html {
 
   width: 14px;
   height: 14px;
-  margin-left: 4px;
+  margin: 0 0 8px 4px;
 
   background-color: transparent;
   background-image: url("../images/control/info.svg");
