@@ -699,6 +699,10 @@ html {
   display: grid;
 }
 
+.button-menu-basket_empty ~ .basket-wrapper_empty {
+  display: flex;
+}
+
 .basket-wrapper {
   position: absolute;
   top: 40px;
@@ -714,6 +718,25 @@ html {
   background-color: #fcfcfc;
   border-radius: 4px;
   box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
+}
+
+.basket-wrapper_empty {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  z-index: 3;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 288px;
+  padding: 48px 0;
+  background-color: #fcfcfc;
+  border-radius: 4px;
+  box-shadow: 0 15px 40px 0 rgba(45, 52, 64, 0.12);
+}
+
+.basket-wrapper_empty-text {
+  text-align: center;
 }
 
 .title-basket-wrapper {
@@ -793,20 +816,24 @@ html {
   display: grid;
 }
 
-.button-menu-basket.button-menu-basket_active {
+.button-menu-basket.button-menu-basket_active,
+.button-menu-basket.button-menu-basket_empty {
   color: #fcfcfc;
   background-color: #ff4a78;
 }
 
-.button-menu-basket_active path {
+.button-menu-basket_active path,
+.button-menu-basket_empty path {
   fill: #fcfcfc;
 }
 
-.button-menu-basket.button-menu-basket_active:hover {
+.button-menu-basket.button-menu-basket_active:hover,
+.button-menu-basket.button-menu-basket_empty:hover {
   opacity: 0.6;
 }
 
-.button-menu-basket.button-menu-basket_active:active {
+.button-menu-basket.button-menu-basket_active:active,
+.button-menu-basket.button-menu-basket_empty:active {
   opacity: 0.3;
 }
 
