@@ -1,6 +1,6 @@
 @font-face {
   font-family: "inter";
-  src: url(../fonts/inter-400.woff2) format("woff2");
+  src: url("../fonts/inter-400.woff2") format("woff2");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "inter";
-  src: url(../fonts/inter-700.woff2) format("woff2");
+  src: url("../fonts/inter-700.woff2") format("woff2");
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "inter";
-  src: url(../fonts/inter-900.woff2) format("woff2");
+  src: url("../fonts/inter-900.woff2") format("woff2");
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -193,7 +193,7 @@ html {
 }
 
 .input::placeholder {
-  font-family: "Inter", sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 16px;
   color: #b9b9b9;
 }
@@ -2076,7 +2076,7 @@ html {
   align-items: center;
   width: 24px;
   height: 24px;
-  font-family: "Inter", sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
   background-color: transparent;
@@ -2205,7 +2205,7 @@ html {
 }
 
 .input-form-free-text {
-  font-family: "Inter", sans-serif;
+  font-family: "inter", sans-serif;
   font-size: 16px;
   line-height: 20px;
   color: #2d3440;
