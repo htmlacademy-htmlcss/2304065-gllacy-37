@@ -187,7 +187,11 @@ html {
 /* input */
 
 .input {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
   padding: 16px 0 14px 16px;
+  color: #2d3440;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
 }
