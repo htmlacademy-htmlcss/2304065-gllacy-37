@@ -2058,7 +2058,7 @@ html {
 .button-show-all {
   justify-self: end;
   align-self: center;
-  width: 179px;
+  min-width: 179px;
   margin: 0;
 }
 
