@@ -1358,6 +1358,7 @@ html {
   position: relative;
   display: grid;
   grid-template-columns: 150px 32px;
+  grid-template-rows: auto 1fr auto;
   column-gap: 8px;
   width: 270px;
   padding: 0 40px 24px;
