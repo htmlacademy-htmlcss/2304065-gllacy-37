@@ -2143,9 +2143,15 @@ html {
   opacity: 0.3;
 }
 
-.pagination-link-control:disabled {
+.pagination-link-control_disabled {
   opacity: 0.3;
   cursor: default;
+  pointer-events: none;
+}
+
+.pagination-link-control_disabled:focus-visible {
+  background-color: transparent;
+  border: none;
 }
 
 .pagination-link-prev {
