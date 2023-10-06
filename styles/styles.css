@@ -1512,6 +1512,7 @@ html {
   grid-column: 1/2;
   padding: 32.6px 0 67.2px 32px;
   min-height: 224px;
+  background-color: #ffffff;
   background-image: url("../images/background/serving.jpg");
   background-position: 0 -109px;
   background-repeat: no-repeat;
@@ -1591,6 +1592,7 @@ html {
   row-gap: 24px;
   padding: 64px 64px 64px 100px;
   grid-column: 1/-1;
+  background-color: #f6f6f6;
   background-image: url("../images/background/delivery.jpg");
   background-repeat: no-repeat;
   background-position: 0;
@@ -1714,6 +1716,7 @@ html {
 
 .about-us {
   grid-column: 1/-1;
+  background-color: #e7d9d9;
   background-image: url("../images/background/contacts.jpg");
   background-position: center;
   background-repeat: no-repeat;
