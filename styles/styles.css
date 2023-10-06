@@ -2107,8 +2107,7 @@ html {
 
 .pagination-link:focus-visible {
   background-color: rgba(252, 252, 252, 0.3);
-  border: 1px solid #2d3440;
-  outline: none;
+  outline: 1px solid #2d3440;
 }
 
 .pagination-link:active {
