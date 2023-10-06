@@ -2023,12 +2023,12 @@ html {
 }
 
 .checkbox-label:hover .checkbox-input {
-  background-image: url("../images/control/checkbox_hover.svg");
+  background-image: url("../images/control/checkbox-hover.svg");
   transition: 0.1s ease-in-out;
 }
 
 .checkbox-input-hidden[type="checkbox"]:checked:hover + .checkbox-input {
-  background-image: url("../images/control/check-on_hover.svg");
+  background-image: url("../images/control/check-on-hover.svg");
   transition: 0.1s ease-in-out;
 }
 
