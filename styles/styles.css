@@ -1986,6 +1986,12 @@ html {
   transition: 0.1s ease-in-out;
 }
 
+.radio-input-hidden:focus-visible + .radio-input,
+.checkbox-input-hidden:focus-visible + .checkbox-input {
+  outline: 2px solid #2d3440;
+  outline-offset: 1px;
+}
+
 .radio-input-hidden[type="radio"]:disabled + .radio-input,
 .checkbox-input-hidden[type="checkbox"]:disabled + .checkbox-input {
   opacity: 0.5;
