@@ -187,7 +187,11 @@ html {
 /* input */
 
 .input {
-  padding: 16px 0 14px 16px;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 11px 0 14px 16px;
+  color: #2d3440;
   border: 1px solid #b9b9b9;
   border-radius: 4px;
 }
@@ -1308,7 +1312,7 @@ html {
 .gift-wrapper-description {
   display: grid;
   grid-template-columns: repeat(2, auto);
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: min-content auto min-content;
   row-gap: 26px;
   padding: 36px 0 36px 36px;
 }
@@ -1358,6 +1362,7 @@ html {
   position: relative;
   display: grid;
   grid-template-columns: 150px 32px;
+  grid-template-rows: min-content auto min-content;
   column-gap: 8px;
   width: 270px;
   padding: 0 40px 24px;
@@ -1507,6 +1512,7 @@ html {
   grid-column: 1/2;
   padding: 32.6px 0 67.2px 32px;
   min-height: 224px;
+  background-color: #ffffff;
   background-image: url("../images/background/serving.jpg");
   background-position: 0 -109px;
   background-repeat: no-repeat;
@@ -1586,6 +1592,7 @@ html {
   row-gap: 24px;
   padding: 64px 64px 64px 100px;
   grid-column: 1/-1;
+  background-color: #f6f6f6;
   background-image: url("../images/background/delivery.jpg");
   background-repeat: no-repeat;
   background-position: 0;
@@ -1709,6 +1716,7 @@ html {
 
 .about-us {
   grid-column: 1/-1;
+  background-color: #e7d9d9;
   background-image: url("../images/background/contacts.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -1978,6 +1986,12 @@ html {
   transition: 0.1s ease-in-out;
 }
 
+.radio-input-hidden:focus-visible + .radio-input,
+.checkbox-input-hidden:focus-visible + .checkbox-input {
+  outline: 2px solid #2d3440;
+  outline-offset: 1px;
+}
+
 .radio-input-hidden[type="radio"]:disabled + .radio-input,
 .checkbox-input-hidden[type="checkbox"]:disabled + .checkbox-input {
   opacity: 0.5;
@@ -2009,12 +2023,12 @@ html {
 }
 
 .checkbox-label:hover .checkbox-input {
-  background-image: url("../images/control/checkbox_hover.svg");
+  background-image: url("../images/control/checkbox-hover.svg");
   transition: 0.1s ease-in-out;
 }
 
 .checkbox-input-hidden[type="checkbox"]:checked:hover + .checkbox-input {
-  background-image: url("../images/control/check-on_hover.svg");
+  background-image: url("../images/control/check-on-hover.svg");
   transition: 0.1s ease-in-out;
 }
 
@@ -2053,7 +2067,7 @@ html {
 .button-show-all {
   justify-self: end;
   align-self: center;
-  width: 179px;
+  min-width: 179px;
   margin: 0;
 }
 
@@ -2093,8 +2107,7 @@ html {
 
 .pagination-link:focus-visible {
   background-color: rgba(252, 252, 252, 0.3);
-  border: 1px solid #2d3440;
-  outline: none;
+  outline: 1px solid #2d3440;
 }
 
 .pagination-link:active {
@@ -2130,9 +2143,15 @@ html {
   opacity: 0.3;
 }
 
-.pagination-link-control:disabled {
+.pagination-link-control_disabled {
   opacity: 0.3;
   cursor: default;
+  pointer-events: none;
+}
+
+.pagination-link-control_disabled:focus-visible {
+  background-color: transparent;
+  border: none;
 }
 
 .pagination-link-prev {
